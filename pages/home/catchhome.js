@@ -28,7 +28,7 @@ class Home extends Componenet {
                 <br />
 
                 <h2>
-                    Login or sSign Up Today!
+                    Login or Sign Up Today!
                 </h2>
             </div>
         )

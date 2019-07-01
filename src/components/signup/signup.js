@@ -1,3 +1,9 @@
+import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
+
+class Signup extends Component {
+
+
 function _defineProperty(obj, key, value) {if (key in obj) {Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true });} else {obj[key] = value;}return obj;} // Input component ----------------------------------
 const Input = (props) =>
 React.createElement("input", {
@@ -20,14 +26,6 @@ class Form extends React.Component {
 
   constructor(props) {
     super(props);_defineProperty(this, "handleInput",
-
-
-
-
-
-
-
-
 
     (param, e) => {
       let value = e.target.value;
@@ -100,3 +98,6 @@ class App extends React.Component {
 
 
 ReactDOM.render(React.createElement(App, null), document.getElementById('root'));
+
+}
+export default Signup;

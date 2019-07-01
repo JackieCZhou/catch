@@ -1,6 +1,7 @@
-import React, { Component } from "react";
+ import React, { Component } from "react";
 import './home.css';
 import Signup from '../../signup';
+import Modal from '../../components/Modal/modal.js';
 
 class Home extends Componenet {
 
@@ -28,7 +29,7 @@ class Home extends Componenet {
                 <br />
 
                 <h2>
-                    Login or sSign Up Today!
+                    Login or Sign Up Today!
                 </h2>
             </div>
         )
