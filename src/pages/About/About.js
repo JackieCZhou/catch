@@ -12,7 +12,7 @@ class About extends Component {
         <div className="container" style={{ border: '.4' }}>
           <h1 style={{ background: 'transparent', color: 'black', border: 'black' }}>What's Catch?</h1>
           <br />
-          <img src='./images/MrGHimself.jpg' style={{ width: '600px', opacity: 'none' }} />
+          <img src='../../../assets/finalcatchlogo.png' style={{ width: '600px', opacity: 'none' }} />
         </div>
 
         <h3>Catch is a full service hiring and job search tool for businesses and job seekers. 
@@ -32,8 +32,6 @@ class About extends Component {
           <div className="col-2"></div>
           <div className="col-8 flex-center">
             <div className="jumbotron pt-3" style={{height: '200px'}}>
-              <h2>Words of Wisdom from James Greenscapes</h2>
-              <br />
               <div className="row">
                 <div className="col-2"></div>
                 <div className="col-8">

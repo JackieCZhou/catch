@@ -10,8 +10,8 @@ import Secret from '../../pages/Secret/Secret';
 import Scheduling from '../../pages/Scheduling/Scheduling';
 import ClientHome from '../../pages/ClientHome/ClientHome';
 import Confirmation from '../../pages/Confirmation/Confirmation';
-import About from '../../pages/About/About';
 
+import About from '../../pages/About/About';
 import Navigation from '../../components/Navigation/navigation';
 import NotFound from '../../pages/NotFound/NotFound';
 import Footer from "../../components/Footer/Footer";
