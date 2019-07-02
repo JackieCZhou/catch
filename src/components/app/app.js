@@ -8,7 +8,6 @@ import PrivateRoute from '../../components/PrivateRoute/PrivateRoute';
 import Login from '../../pages/Login/Login';
 import Register from '../../pages/Register/Register';
 import Secret from '../../pages/Secret/Secret';
-import Home from '../../pages/Home/Home';
 import Scheduling from '../../pages/Scheduling/Scheduling';
 import NotFound from '../../pages/NotFound/NotFound';
 import ClientHome from '../../pages/ClientHome/ClientHome';
@@ -17,6 +16,7 @@ import About from '../../pages/About/About';
 import Footer from "../../components/Footer/Footer";
 
 import Signup from "../../components/signup/signup";
+import Home from "../../pages/home/catchhome";
 import './App.css';
 
 class App extends Component {
