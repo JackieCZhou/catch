@@ -10,7 +10,7 @@ class About extends Component {
       <div className="info">
         <br /><br />
         <div className="container" style={{ border: '.4' }}>
-          <h1 style={{ background: 'transparent', color: 'black', border: 'black' }}>Meet Mr. Greenscapes Himself</h1>
+          <h1 style={{ background: 'transparent', color: 'black', border: 'black' }}>What's Catch?</h1>
           <br />
           <img src='./images/MrGHimself.jpg' style={{ width: '600px', opacity: 'none' }} />
         </div>
