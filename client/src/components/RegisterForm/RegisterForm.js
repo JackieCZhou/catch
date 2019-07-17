@@ -45,7 +45,7 @@ class RegisterForm extends Component {
       <div className="col-sm-6 form">
         <div className="card">
           <div className="card-body">
-            <h2 className="card-title text-primary" style={{textAlign: 'center'}}>Join Catch Today!</h2>
+            <h2 className="card-title text-white" style={{textAlign: 'center'}}>Join Catch Today!</h2>
             <br />
             <form onSubmit={this.handleSubmit}>
               <div className="row">
@@ -118,7 +118,7 @@ class RegisterForm extends Component {
                   value={password}
                   onChange={this.handleInputChange} />
               </div>
-              <button type="submit" style={{width: '100%'}} className="btn btn-primary">Submit</button>
+              <button type="submit" style={{width: '100%'}} className="btn">Submit</button>
             </form>
           </div>
         </div>
