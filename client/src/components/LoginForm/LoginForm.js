@@ -61,7 +61,7 @@ class LoginForm extends Component {
                   onChange={this.handleInputChange}
                 />
               </div>
-              <button className='btn btn-primary text-white' style={{width:'center'}} type='submit'>Submit</button>
+              <button className='btn text-white' style={{width:'center'}} type='submit'>Submit</button>
             </form>
           </div>
         </div>

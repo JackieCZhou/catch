@@ -96,7 +96,7 @@ class RegisterForm extends Component {
               </div>
               <br />
               <div className="form-group text-left">
-                <label form="email">Email</label>
+                <label form="email text-white">Email</label>
                 <input
                   className="form-control"
                   id='email'
@@ -108,7 +108,7 @@ class RegisterForm extends Component {
                   onChange={this.handleInputChange} />
               </div>
               <div className="form-group text-left">
-                <label form="password">Password</label>
+                <label form="password text-white">Password</label>
                 <input
                   className="form-control"
                   id='password'
