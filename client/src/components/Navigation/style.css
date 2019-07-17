@@ -3,3 +3,7 @@
   font-size: 110%;
 };
 
+.nav-link{
+  color: navy;
+  background-color: transparent !important;
+}

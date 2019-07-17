@@ -10,7 +10,7 @@ class Footer extends Component {
         return (
          <div>
            <br />
-          <footer class="page-footer font-small green pt-4">
+          <footer class="page-footer font-small pt-4">
           
             <div class="container-fluid text-center text-md-left">
           
