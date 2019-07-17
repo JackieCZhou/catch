@@ -1,0 +1,35 @@
+{
+  "name": "project-3-starter",
+  "version": "1.0.0",
+  "license": "MIT",
+  "main": "server/server.js",
+  "scripts": {
+    "install": "yarn run install:client && yarn run install:server",
+    "install:client": "cd client && yarn",
+    "install:server": "cd server && yarn",
+    "build": "cd client && yarn build",
+    "start": "node server/server.js",
+    "start:dev": "concurrently -n client,server \"yarn run client:dev\" \"yarn run server:dev\"",
+    "client:dev": "cd client && yarn start",
+    "server:dev": "nodemon server/server.js",
+    "heroku-postbuild": "yarn build"
+  },
+  "devDependencies": {
+    "concurrently": "^4.1.0",
+    "nodemon": "^1.18.10"
+  },
+  "dependencies": {
+    "axios": "^0.19.0",
+    "babel-preset-react-app": "^9.0.0",
+    "moment": "^2.24.0",
+    "mongoose": "^5.5.12",
+    "react-bootstrap4-modal": "^1.7.1",
+    "react-calendar": "^2.19.0",
+    "react-image-gallery": "^0.8.17",
+    "react-items-carousel": "^2.3.6",
+    "react-moment": "^0.9.2",
+    "react-multi-carousel": "^1.4.2",
+    "react-stripe-elements": "^3.0.0",
+    "semantic-ui-react": "^0.87.1"
+  }
+}
