@@ -43,8 +43,7 @@ class RegisterForm extends Component {
     return (<div className="row">
       <div className="col-sm-3"></div>
       <div className="col-sm-6 form">
-        <div className="card" style={{background: rgb(134,148,203);
-          background: radial-gradient(circle, rgba(134,148,203,1) 0%, rgba(97,152,193,1) 43%, rgba(24,36,74,1) 100%);}}>
+        <div className="card">
           <div className="card-body">
             <h2 className="card-title text-primary" style={{textAlign: 'center'}}>Join Catch Today!</h2>
             <br />
