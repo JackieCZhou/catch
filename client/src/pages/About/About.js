@@ -12,7 +12,7 @@ class About extends Component {
         <div className="container" style={{ border: '.4' }}>
           <h1 style={{ background: 'transparent', color: 'black', border: 'black' }}>What's Catch?</h1>
           <br />
-          <img src='../../assets/finalcatchlogo.png' style={{ width: '400px', opacity: 'none' }} />
+          <img src='../../assets/finalcatchlogo.png' style={{ width: 'px', opacity: 'none' }} />
         </div>
 
         <h4>Catch is a full service hiring and job search tool for businesses and job seekers. 
@@ -40,37 +40,37 @@ class About extends Component {
                     <div className="carousel-inner">
                       <div className="carousel-item active">
                         <div className='card-review' style={{ border: 'none' }}>
-                          <h6 style={{ textAlign: 'center' }}>
+                          <h5 style={{ textAlign: 'center' }}>
                           “Whether you think you can or you think you can’t, you’re right.” – Henry Ford
-                        </h6>
+                        </h5>
                         </div>
                       </div>
                       <div className="carousel-item">
                         <div className='card-review' style={{ border: 'none' }}>
-                          <h6 style={{ textAlign: 'center' }}>
+                          <h5 style={{ textAlign: 'center' }}>
                           “If your ship doesn't come in, swim out to meet it.”― Jonathan Winters
-                        </h6>
+                        </h5>
                         </div>
                       </div>
                       <div className="carousel-item">
                         <div className='card-review' style={{ border: 'none' }}>
                           <h5 style={{ textAlign: 'center' }}>
                           “Choose a job you love, and you will never have to work a day in your life.” – Confucius
-                             </h6>
+                             </h5>
                         </div>
                       </div>
                       <div className="carousel-item">
                         <div className='card-review' style={{ border: 'none' }}>
-                          <h6 style={{ textAlign: 'center' }}>
+                          <h5 style={{ textAlign: 'center' }}>
                           “Never put off till tomorrow what you can do today.” – Thomas Jefferson
-                            </h6>
+                            </h5>
                         </div>
                       </div>
                       <div className="carousel-item">
                         <div className='card-review' style={{ border: 'none' }}>
-                          <h6 style={{ textAlign: 'center' }}>
+                          <h5 style={{ textAlign: 'center' }}>
                           “Opportunities don’t happen, you create them.” – Chris Grosser
-                            </h6>
+                            </h5>
                         </div>
                       </div>
                     </div>
