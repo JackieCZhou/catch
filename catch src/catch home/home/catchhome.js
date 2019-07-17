@@ -12,7 +12,7 @@ class Home extends Componenet {
         return (
             <div className="home">
                 <div className="container" style={{ background:}}>
-                    <img src='../assets/finalcatchlogo.jpg' style={{ width: '100px', opacity: 'none' }} />
+                    <img src='../assets/finalcatchlogo.png' style={{ width: '100px', opacity: 'none' }} />
                     <br />
                     <h1 style={{ background: 'transparent', color: 'black', border: 'black' }}>Never miss another job opportunity again!</h1>
                 </div>

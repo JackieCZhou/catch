@@ -2,7 +2,15 @@ import React from 'react';
 import ItemsCarousel from 'react-items-carousel';
 import range from 'lodash/range';
 // import { url } from 'inspector';
-import image1 from '../../assets/finalcatchlogo.jpg';
+import image1 from '../../cssPages/ImageGallery/trimming.png';
+import image2 from '../../cssPages/ImageGallery/pineneedles.png';
+import image3 from '../../cssPages/ImageGallery/aeration.png';
+import image4 from '../../cssPages/ImageGallery/removal.png';
+import image5 from '../../cssPages/ImageGallery/banner.png';
+import image6 from '../../cssPages/ImageGallery/topiary.png';
+import image7 from '../../cssPages/ImageGallery/reseeding.png';
+import image8 from '../../cssPages/ImageGallery/pruning.png';
+import image9 from '../../cssPages/ImageGallery/offer.png';
 
 
 
