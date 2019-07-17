@@ -1,8 +1,8 @@
-const checkoutController = require('./node_modules/express').Router();
+const checkoutController = require('express').Router();
 
 const db = require('../../models');
 const { JWTVerifier } = require('../../lib/passport');
-const jwt = require('./node_modules/jsonwebtoken');
+const jwt = require('jsonwebtoken');
 
 checkoutController.get('/services', JWTVerifier, (req, res) => {
     db.Services.find({id:req.user._id}).then(services => {

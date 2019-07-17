@@ -1,4 +1,4 @@
-const controllers = require('./node_modules/express').Router();
+const controllers = require('express').Router();
 
 const apiControllers = require('./api');
 

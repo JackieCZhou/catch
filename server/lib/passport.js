@@ -1,5 +1,5 @@
-const passport = require('./node_modules/passport');
-const { Strategy: JwtStrategy, ExtractJwt } = require('./node_modules/passport-jwt');
+const passport = require('passport');
+const { Strategy: JwtStrategy, ExtractJwt } = require('passport-jwt');
 
 const db = require('../models');
 

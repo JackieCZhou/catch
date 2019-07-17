@@ -1,4 +1,4 @@
-const secretsController = require('./node_modules/express').Router();
+const secretsController = require('express').Router();
 const db = require('../../models')
 
 const { JWTVerifier } = require('../../lib/passport');

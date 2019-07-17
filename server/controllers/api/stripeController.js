@@ -1,4 +1,4 @@
-const express = require('./node_modules/express');
+const express = require('express');
 const stripeController = express.Router();
 const router = express.Router();
 // const authHelpers = require('../auth/_helpers');

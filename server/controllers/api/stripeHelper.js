@@ -1,4 +1,4 @@
-const stripe = require('./node_modules/stripe')(process.env.STRIPE_SECRET_KEY);
+const stripe = require('stripe')(process.env.STRIPE_SECRET_KEY);
 
 // const productQueries = require('../db/queries/products');
 // const transactionQueries = require('../db/queries/transactions');
