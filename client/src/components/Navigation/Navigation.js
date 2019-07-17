@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import logo from '../../cssPages/ImageGallery/finalcatchlogo';
+import logo from '../../cssPages/images/greenscapes.png';
 import '../Navigation/style.css';
 import About from '../../pages/About/About';
 
