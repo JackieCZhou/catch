@@ -12,10 +12,10 @@ class About extends Component {
         <div className="container" style={{ border: '.4' }}>
           <h1 style={{ background: 'transparent', color: 'black', border: 'black' }}>What's Catch?</h1>
           <br />
-          <img src='./images/MrGHimself.jpg' style={{ width: '600px', opacity: 'none' }} />
+          <img src='../../assets/finalcatchlogo.png' style={{ width: '400px', opacity: 'none' }} />
         </div>
 
-        <h3>Catch is a full service hiring and job search tool for businesses and job seekers. 
+        <h4>Catch is a full service hiring and job search tool for businesses and job seekers. 
             <br />Business looking to use Catch can save and cateogrize potentional employees based on the paremiters tat work best for them.  
             In addition you have the ability to share saved Catch recruits with fellow team members to simplifiy the job hunt.  Once you've decided who you want 
             interview you can set up appointments directly with google calendar and continue to narrow down potentional hires with our "On Deck" hiring template.
@@ -24,7 +24,7 @@ class About extends Component {
             meet someone looking for more information.  You will have access to upcoming meetups and job fairs in your area as well as the ability to update potentional 
             companies you're connected with whenever your resume changes.
             <br /> Don't miss out on the new wave of job hunting!
-        </h3>
+        </h4>
 
         < br ></br >
         {/* <ItemsCarousel> */}
@@ -40,37 +40,37 @@ class About extends Component {
                     <div className="carousel-inner">
                       <div className="carousel-item active">
                         <div className='card-review' style={{ border: 'none' }}>
-                          <h5 style={{ textAlign: 'center' }}>
+                          <h6 style={{ textAlign: 'center' }}>
                           “Whether you think you can or you think you can’t, you’re right.” – Henry Ford
-                        </h5>
+                        </h6>
                         </div>
                       </div>
                       <div className="carousel-item">
                         <div className='card-review' style={{ border: 'none' }}>
-                          <h5 style={{ textAlign: 'center' }}>
+                          <h6 style={{ textAlign: 'center' }}>
                           “If your ship doesn't come in, swim out to meet it.”― Jonathan Winters
-                        </h5>
+                        </h6>
                         </div>
                       </div>
                       <div className="carousel-item">
                         <div className='card-review' style={{ border: 'none' }}>
                           <h5 style={{ textAlign: 'center' }}>
                           “Choose a job you love, and you will never have to work a day in your life.” – Confucius
-                             </h5>
+                             </h6>
                         </div>
                       </div>
                       <div className="carousel-item">
                         <div className='card-review' style={{ border: 'none' }}>
-                          <h5 style={{ textAlign: 'center' }}>
+                          <h6 style={{ textAlign: 'center' }}>
                           “Never put off till tomorrow what you can do today.” – Thomas Jefferson
-                            </h5>
+                            </h6>
                         </div>
                       </div>
                       <div className="carousel-item">
                         <div className='card-review' style={{ border: 'none' }}>
-                          <h5 style={{ textAlign: 'center' }}>
+                          <h6 style={{ textAlign: 'center' }}>
                           “Opportunities don’t happen, you create them.” – Chris Grosser
-                            </h5>
+                            </h6>
                         </div>
                       </div>
                     </div>
