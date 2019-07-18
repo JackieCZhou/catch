@@ -2,15 +2,12 @@ import React from 'react';
 import ItemsCarousel from 'react-items-carousel';
 import range from 'lodash/range';
 // import { url } from 'inspector';
-import image1 from '../../cssPages/ImageGallery/trimming.png';
+import image1 from '../../cssPages/ImageGallery/linkedinlogo.jpg';
 import image2 from '../../cssPages/ImageGallery/pineneedles.png';
 import image3 from '../../cssPages/ImageGallery/aeration.png';
 import image4 from '../../cssPages/ImageGallery/removal.png';
 import image5 from '../../cssPages/ImageGallery/banner.pdf';
-import image6 from '../../cssPages/ImageGallery/topiary.png';
-import image7 from '../../cssPages/ImageGallery/reseeding.png';
-import image8 from '../../cssPages/ImageGallery/pruning.png';
-import image9 from '../../cssPages/ImageGallery/offer.png';
+
 
 
 
@@ -104,10 +101,6 @@ export default class Test extends React.Component {
         <img src={image3} className="grass3" alt="grass" />
         <img src={image4} className="grass4" alt="grass" />
         <br />
-        <img src={image6} className="grass6" alt="grass" />
-        <img src={image7} className="grass7" alt="grass" />
-        <img src={image8} className="grass8" alt="grass" />
-        <img src={image9} className="grass9" alt="grass" />
         <br />
         <br></br>
         <div className="row">
