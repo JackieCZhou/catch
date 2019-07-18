@@ -101,7 +101,7 @@ export default class Test extends React.Component {
         <br />
         <br />
         <br></br>
-        <div className="row" style={{height:'250px'}}>
+        <div className="row" style={{height:'100px'}}>
           <div className="col-2"></div>
           <div className="col-8 flex-center">
             <div className="jumbotron pt-3 smallReview">
