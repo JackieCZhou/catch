@@ -5,8 +5,7 @@ import range from 'lodash/range';
 import image1 from '../../cssPages/ImageGallery/linkedinlogo.jpg';
 import image2 from '../../cssPages/ImageGallery/pineneedles.png';
 import image3 from '../../cssPages/ImageGallery/aeration.png';
-import image4 from '../../cssPages/ImageGallery/removal.png';
-import image5 from '../../cssPages/ImageGallery/banner.pdf';
+import image5 from '../../cssPages/ImageGallery/banner.png';
 
 
 
@@ -96,10 +95,9 @@ export default class Test extends React.Component {
 
         {/* -------------------------------------------------------------------------------------------- */}
 
-        <img src={image1} className="grass1" alt="grass" />
+        <img src={image1} className="grass1" alt="grass"/>
         <img src={image2} className="grass2" alt="grass" />
         <img src={image3} className="grass3" alt="grass" />
-        <img src={image4} className="grass4" alt="grass" />
         <br />
         <br />
         <br></br>
