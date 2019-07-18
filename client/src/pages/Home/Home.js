@@ -101,12 +101,12 @@ export default class Test extends React.Component {
         <br />
         <br />
         <br></br>
-        <div className="row" style={{height:'100px'}}>
+        <div className="row">
           <div className="col-2"></div>
           <div className="col-8 flex-center">
             <div className="jumbotron pt-3 smallReview">
               <br />
-              <div className="row">
+              <div className="row" style={{height:'100px'}}>
                 <div className="col-2"></div>
                 <div className="col-8">
                   <div id="carouselExampleControls" className="carousel slide" data-ride="carousel">
