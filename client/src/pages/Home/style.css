@@ -10,6 +10,19 @@ h3 {
   font-style: italic;
 }
 
+body, html {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bouncing-text {
+  color: orangered;
+  font-size: 60px;
+}
+
+
 .card-body{
   padding: 1.85rem;
   background: rgb(134,148,203);
