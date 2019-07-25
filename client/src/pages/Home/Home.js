@@ -5,10 +5,7 @@ import range from 'lodash/range';
 import image1 from '../../cssPages/ImageGallery/linkedinlogo.jpg';
 import image2 from '../../cssPages/ImageGallery/linkedinlogo.jpg';
 import image3 from '../../cssPages/ImageGallery/linkedinlogo.jpg';
-import '../Home/script';
 import './script';
-import BouncingText from './Bouncingtext';
-
 
 
 export default class Test extends React.Component {
@@ -50,8 +47,8 @@ export default class Test extends React.Component {
       
 
       <div className="container" style={{ border: '.4' }}>
-          <h1 style={{ background: 'transparent', color: 'black', border: 'black' }}>Never miss your chance to {{BouncingText}} the perfect opportunity again!</h1>
-          <div id="root"></div>
+          <h1 style={{ background: 'transparent', color: 'black', border: 'black' }}>Never miss your chance to <div id="root"></div> the perfect opportunity again!</h1>
+          
 
       <ItemsCarousel
         // Placeholder configurations
@@ -154,6 +151,8 @@ export default class Test extends React.Component {
         </div>
       </div>
       </div >
+
+
 
     );
   }
