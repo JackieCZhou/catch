@@ -5,7 +5,7 @@ import range from 'lodash/range';
 import image1 from '../../cssPages/ImageGallery/linkedinlogo.jpg';
 import image2 from '../../cssPages/ImageGallery/linkedinlogo.jpg';
 import image3 from '../../cssPages/ImageGallery/linkedinlogo.jpg';
-import './script';
+import BouncingText from './script';
 import './style.css'
 
 
@@ -48,7 +48,7 @@ export default class Test extends React.Component {
       
 
       <div className="bouncing-text" style={{ border: '.4' }}>
-          <h1 style={{ background: 'transparent', color: 'black', border: 'black' }}>Never miss your chance to <div id="root"></div> the perfect opportunity again!</h1>
+          <h1 style={{ background: 'transparent', color: 'black', border: 'black' }}>Never miss your chance to {{BouncingText}} the perfect opportunity again!</h1>
           
 
       <ItemsCarousel
@@ -103,7 +103,7 @@ export default class Test extends React.Component {
       <div className="row">
         <div className="col-2"></div>
         <div className="col-8 flex-center">
-          <div className="jumbotron pt-3 smallReview">
+          <div className="jumbotron pt-3 smallReview" style={{ height: '100px' }}>
             <br />
             <div className="row" style={{ height: '100px' }}>
               <div className="col-2"></div>
