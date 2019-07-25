@@ -5,7 +5,7 @@
 /.pnp
 .pnp.js
 
-SKIP_PREFLIGHT_CHECK=true 
+.env
 
 # testing
 /coverage
