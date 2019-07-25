@@ -6,6 +6,7 @@ import image1 from '../../cssPages/ImageGallery/linkedinlogo.jpg';
 import image2 from '../../cssPages/ImageGallery/linkedinlogo.jpg';
 import image3 from '../../cssPages/ImageGallery/linkedinlogo.jpg';
 import './script';
+import './style.css'
 
 
 export default class Test extends React.Component {
@@ -46,7 +47,7 @@ export default class Test extends React.Component {
     return (
       
 
-      <div className="container" style={{ border: '.4' }}>
+      <div className="bouncing-text" style={{ border: '.4' }}>
           <h1 style={{ background: 'transparent', color: 'black', border: 'black' }}>Never miss your chance to <div id="root"></div> the perfect opportunity again!</h1>
           
 
