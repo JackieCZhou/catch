@@ -48,7 +48,7 @@ export default class Test extends React.Component {
       
 
       <div className="bouncing-text" style={{ border: '.4' }}>
-          <h1 style={{ background: 'transparent', color: 'black', border: 'black' }}>Never miss your chance to {{'root'}} the perfect opportunity again!</h1>
+          <h1 style={{ background: 'transparent', color: 'black', border: 'black' }}>Never miss your chance to {'root'} the perfect opportunity again!</h1>
           
 
       <ItemsCarousel
