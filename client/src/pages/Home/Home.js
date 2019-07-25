@@ -46,10 +46,15 @@ export default class Test extends React.Component {
 
     return (
       
-
-      <div className="bouncing-text" style={{ border: '.4' }}>
+      <div className="bouncing-text">
+        <div className="row">
+          <br />
+          <div className="col-sm-2"></div>
+          <div className="col-sm-8">
           <h1 style={{ background: 'transparent', color: 'black', border: 'black' }}>Never miss your chance to {'root'} the perfect opportunity again!</h1>
-          
+          </div>
+          <div className="col-sm-2"> </div>
+        </div>
 
       <ItemsCarousel
         // Placeholder configurations
