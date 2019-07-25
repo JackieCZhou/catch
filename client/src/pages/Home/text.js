@@ -11,4 +11,4 @@ const MyBouncingText = () => {
   >
 };
 
-export default MyBouncingText;
+export default BouncingText;
