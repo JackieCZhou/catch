@@ -93,6 +93,4 @@ const boucingCharAnimation = styled.keyframes`
   100% { transform: translateY(0em); }
 `;
 
-ReactDOM.render(React.createElement(App, null), document.getElementsByClassName(BouncingText));
-
-export default BouncingText;
+ReactDOM.render(React.createElement(App, null), document.getElementById('root'));
