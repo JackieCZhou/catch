@@ -1609,6 +1609,11 @@ core-js-pure@3.1.4:
   resolved "https://registry.yarnpkg.com/core-js-pure/-/core-js-pure-3.1.4.tgz#5fa17dc77002a169a3566cc48dc774d2e13e3769"
   integrity sha512-uJ4Z7iPNwiu1foygbcZYJsJs1jiXrTTCvxfLDXNhI/I+NHbSIEyr548y4fcsCEyWY0XgfAG/qqaunJ1SThHenA==
 
+core-js@3:
+  version "3.1.4"
+  resolved "https://registry.yarnpkg.com/core-js/-/core-js-3.1.4.tgz#3a2837fc48e582e1ae25907afcd6cf03b0cc7a07"
+  integrity sha512-YNZN8lt82XIMLnLirj9MhKDFZHalwzzrL9YLt6eb0T5D0EDl4IQ90IGkua8mHbnxNrkj1d8hbdizMc0Qmg1WnQ==
+
 core-js@^1.0.0:
   version "1.2.7"
   resolved "https://registry.yarnpkg.com/core-js/-/core-js-1.2.7.tgz#652294c14651db28fa93bd2d5ff2983a4f08c636"
@@ -3853,13 +3858,6 @@ react-popper@^1.3.3:
     prop-types "^15.6.1"
     typed-styles "^0.0.7"
     warning "^4.0.2"
-
-react-stripe-elements@^3.0.0:
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/react-stripe-elements/-/react-stripe-elements-3.0.0.tgz#8b5e354e6e421b85f909329c9818a719b132410a"
-  integrity sha512-ouGHPmPhdg7KUTOFVuYIr0UWVgBjG5CqmOn9/y0vaJICryPB6llkiOGeUXKrac7fu1/vtPdn8t/4JKnbi8PT8g==
-  dependencies:
-    prop-types "^15.5.10"
 
 react-swipeable@^5.2.0:
   version "5.3.0"
