@@ -94,3 +94,5 @@ const boucingCharAnimation = styled.keyframes`
 `;
 
 ReactDOM.render(React.createElement(App, null), document.getElementById(BouncingText));
+
+export default BouncingText;
