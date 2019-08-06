@@ -51,7 +51,7 @@ export default class Test extends React.Component {
           <br />
           <div className="col-sm-2"></div>
           <div className="col-sm-8">
-          <h1 style={{ background: 'transparent', color: 'black', border: 'black' }}>Never miss your chance to {'root'} the perfect opportunity again!</h1>
+          <h1 style={{ background: 'transparent', color: 'black', border: 'black' }}>Never miss your chance to Catch the perfect opportunity again!</h1>
           </div>
           <div className="col-sm-2"> </div>
         </div>
