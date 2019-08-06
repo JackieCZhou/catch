@@ -25,15 +25,6 @@ class Footer extends Component {
           
                 <hr class="clearfix w-100 d-md-none pb-3" />
           
-                <div class="col-md-3 mb-md-0 mb-3">
-          
-                  <ul class="list-unstyled">
-                    <li>
-                      <a href="https://github.com/JackieCZhou">Jackie Zhou</a>
-                    </li>
-                  </ul>
-          
-                </div>
           
                 <div class="col-md-3 mb-md-0 mb-3">
           
@@ -56,10 +47,11 @@ class Footer extends Component {
           
               </div>
           
+          
             </div>
-            <a href="https://github.com/JackieCZhou">Jackie Zhou</a>
+            
             <div class="footer-copyright text-center py-3">About 
-            <Link className='' to='/about' onClick={this.toggleCollapse}> Catch</Link>
+            <Link className='' to='/about' onClick={this.toggleCollapse}> Catch</Link> <a href="https://github.com/JackieCZhou">Jackie Zhou</a>
             </div>
           
           </footer>
