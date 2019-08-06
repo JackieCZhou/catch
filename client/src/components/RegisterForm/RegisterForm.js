@@ -118,7 +118,7 @@ class RegisterForm extends Component {
                   value={password}
                   onChange={this.handleInputChange} />
               </div>
-              <button type="submit" style={{width: '100%'}} className="btn">Submit</button>
+              <button type="submit" style={{width: '100%', fontColor: 'white'}} className="btn">Submit</button>
             </form>
           </div>
         </div>
