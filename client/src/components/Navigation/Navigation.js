@@ -1,4 +1,3 @@
-Navbar.js
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import logo from '../../cssPages/images/greenscapes.png';
@@ -71,3 +70,5 @@ class Navigation extends Component {
     );
   }
 }
+
+export default Navigation;
