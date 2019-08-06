@@ -2,12 +2,16 @@ import React from 'react';
 import ItemsCarousel from 'react-items-carousel';
 import range from 'lodash/range';
 // import { url } from 'inspector';
-import image1 from '../../cssPages/ImageGallery/linkedinlogo.jpg';
-import image2 from '../../cssPages/ImageGallery/linkedinlogo.jpg';
-import image3 from '../../cssPages/ImageGallery/linkedinlogo.jpg';
-import image4 from '../../../src/assets/background.jpg';
-// import './script.js';
-import './style.css'
+import image1 from '../../cssPages/ImageGallery/trimming.png';
+import image2 from '../../cssPages/ImageGallery/pineneedles.png';
+import image3 from '../../cssPages/ImageGallery/aeration.png';
+import image4 from '../../cssPages/ImageGallery/removal.png';
+import image5 from '../../cssPages/ImageGallery/banner.png';
+import image6 from '../../cssPages/ImageGallery/topiary.png';
+import image7 from '../../cssPages/ImageGallery/reseeding.png';
+import image8 from '../../cssPages/ImageGallery/pruning.png';
+import image9 from '../../cssPages/ImageGallery/offer.png';
+
 
 
 export default class Test extends React.Component {
@@ -47,106 +51,100 @@ export default class Test extends React.Component {
 
     return (
       <div>
-      <div className="row">
-        <div className="col-12">
-          <img src={image4} className="grass5 img-fluid img-responsive" alt="grass" />
+        <div className="row">
+          <div className="col-12">
+            <img src={image5} className="grass5 img-fluid img-responsive" alt="grass" />
+          </div>
         </div>
-      </div>
+        <ItemsCarousel
+          // Placeholder configurations
+          enablePlaceholder
+          numberOfPlaceholderItems={5}
+          minimumPlaceholderTime={1000}
+          placeholderItem={<div style={{ height: 300, background: 'url(images[i])' }}></div>}
 
-      {/* // <div className="bouncing-text">
-      //   <div className="row">
-      //     <br />
-      //     <div className="col-sm-2"></div>
-      //     <div className="col-sm-8">
-      //     <h1 style={{ background: 'transparent', color: 'black', border: 'black' }}>Never miss your chance to Catch the perfect opportunity again!</h1>
-      //     </div>
-      //     <div className="col-sm-2"> </div>
-      //   </div> */}
+          // Carousel configurations
+          numberOfCards={3}
+          gutter={12}
+          showSlither={true}
+          firstAndLastGutter={true}
+          freeScrolling={false}
 
-      <ItemsCarousel
-        // Placeholder configurations
-        enablePlaceholder
-        numberOfPlaceholderItems={5}
-        minimumPlaceholderTime={1000}
-        placeholderItem={<div style={{ height: 300, background: 'url(images[i])' }}></div>}
+          // Active item configurations
+          requestToChangeActive={this.changeActiveItem}
+          activeItemIndex={activeItemIndex}
+          activePosition={'center'}
 
-        // Carousel configurations
-        numberOfCards={3}
-        gutter={12}
-        showSlither={true}
-        firstAndLastGutter={true}
-        freeScrolling={false}
+          chevronWidth={24}
+          rightChevron={'>'}
+          leftChevron={'<'}
+          outsideChevron={false}
+        >
+          {children}
 
-        // Active item configurations
-        requestToChangeActive={this.changeActiveItem}
-        activeItemIndex={activeItemIndex}
-        activePosition={'center'}
+          {Array.from(new Array(10)).map((_, i) =>
+            <div
+              key={i}
+              style={{
+                height: 2,
+                background: 'url(images[i])'
+              }}
 
-        chevronWidth={24}
-        rightChevron={'>'}
-        leftChevron={'<'}
-        outsideChevron={false}
-      >
-        {children}
+            />
 
-        {Array.from(new Array(10)).map((_, i) =>
-          <div
-            key={i}
-            style={{
-              height: 2,
-              background: 'url(images[i])'
-            }}
-
-          />
-
-        )}
+          )}
 
 
-      </ItemsCarousel>
+        </ItemsCarousel>
 
+        {/* -------------------------------------------------------------------------------------------- */}
 
-    <img src={image1} className="grass1" alt="grass" />
-      <img src={image2} className="grass2" alt="grass" />
-      <img src={image3} className="grass3" alt="grass" />
-      <br />
-      <br />
-      <br></br>
-      <div className="row">
-        <div className="col-2"></div>
-        <div className="col-8 flex-center">
-          <div className="jumbotron pt-3 smallReview" style={{ height: '100px' }}>
-            <br />
-            <div className="row" style={{ height: '100px' }}>
-              <div className="col-2"></div>
-              <div className="col-8">
-                <div id="carouselExampleControls" className="carousel slide" data-ride="carousel">
-                  <div className="carousel-inner">
-                    <div className="carousel-item active">
-                      <div className='card-review' style={{ border: 'none' }}>
-                        <h4 style={{ textAlign: 'left' }}>“Whether you think you can or you think you can’t, you’re right.” – Henry Ford
+        <img src={image1} className="grass1" alt="grass" />
+        <img src={image2} className="grass2" alt="grass" />
+        <img src={image3} className="grass3" alt="grass" />
+        <img src={image4} className="grass4" alt="grass" />
+        <br />
+        <img src={image6} className="grass6" alt="grass" />
+        <img src={image7} className="grass7" alt="grass" />
+        <img src={image8} className="grass8" alt="grass" />
+        <img src={image9} className="grass9" alt="grass" />
+        <br />
+        <br></br>
+        <div className="row">
+          <div className="col-2"></div>
+          <div className="col-8 flex-center">
+            <div className="jumbotron pt-3 smallReview">
+              <br />
+              <div className="row">
+                <div className="col-2"></div>
+                <div className="col-8">
+                  <div id="carouselExampleControls" className="carousel slide" data-ride="carousel">
+                    <div className="carousel-inner">
+                      <div className="carousel-item active">
+                        <div className='card-review' style={{ border: 'none' }}>
+                          <h4 style={{ textAlign: 'left' }}>“Whether you think you can or you think you can’t, you’re right.” – Henry Ford
                       </h4>
+                        </div>
                       </div>
-                    </div>
-                    <div className="carousel-item">
-                      <div className='card-review' style={{ border: 'none' }}>
-                        <h4 style={{ textAlign: 'left' }}>
-                          “If your ship doesn't come in, swim out to meet it.”― Jonathan Winters
+                      <div className="carousel-item">
+                        <div className='card-review' style={{ border: 'none' }}>
+                          <h4 style={{ textAlign: 'left' }}>“If your ship doesn't come in, swim out to meet it.”― Jonathan Winters
                       </h4>
+                        </div>
                       </div>
-                    </div>
-                    <div className="carousel-item">
-                      <div className='card-review' style={{ border: 'none' }}>
-                        <h4 style={{ textAlign: 'left' }}>“Never put off till tomorrow what you can do today.” – Thomas Jefferson
+                      <div className="carousel-item">
+                        <div className='card-review' style={{ border: 'none' }}>
+                          <h4 style={{ textAlign: 'left' }}>“Never put off till tomorrow what you can do today.” – Thomas Jefferson
                       </h4>
+                        </div>
                       </div>
-                    </div>
-                    <div className="carousel-item">
-                      <div className='card-review' style={{ border: 'none' }}>
-                        <h4 style={{ textAlign: 'left' }}>“Opportunities don’t happen, you create them.” – Chris Grosser
+                      <div className="carousel-item">
+                        <div className='card-review' style={{ border: 'none' }}>
+                          <h4 style={{ textAlign: 'left' }}>“Opportunities don’t happen, you create them.” – Chris Grosser
                         </h4>
+                        </div>
                       </div>
                     </div>
-                  </div>
                   <a className="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
                     <span className="carousel-control-prev-icon" aria-hidden="true"></span>
                     <span className="sr-only">Previous</span>
@@ -158,11 +156,11 @@ export default class Test extends React.Component {
                 </div>
               </div>
               <div classNameName="col-2"></div>
-              </div>
             </div>
           </div>
         </div>
-      </div >
+      </div>
+      </div>
     );
   }
-} 
+}
