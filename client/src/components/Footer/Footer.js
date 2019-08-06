@@ -57,7 +57,7 @@ class Footer extends Component {
               </div>
           
             </div>
-          
+            <a href="https://github.com/JackieCZhou">Jackie Zhou</a>
             <div class="footer-copyright text-center py-3">About 
             <Link className='' to='/about' onClick={this.toggleCollapse}> Catch</Link>
             </div>

@@ -10,18 +10,20 @@ class About extends Component {
       <div className="info">
         <br /><br />
         <div className="container" style={{ border: '.4' }}>
-          <h1 style={{ background: 'transparent', color: 'black', border: 'black' }}>Meet Mr. Greenscapes Himself</h1>
+        <h1 style={{ background: 'transparent', color: 'black', border: 'black' }}>What's Catch?</h1>
           <br />
-          <img src='./images/MrGHimself.jpg' style={{ width: '600px', opacity: 'none' }} />
+          <img src='./images/greenscapes' style={{ width: '600px', opacity: 'none' }} />
         </div>
 
-        <h3>Born James Eugene Greenscapes in 1955, James was raised in Cut And Shoot, Texas. James always had a passion for the outdoors. His parents Alice and James Sr.
-          gave him a toy push mower for his 5th birthday and the rest is history. Cutting lawns professionally by twelve, James went to the University of
-          Santa Cruz for a Bachelor's degree in Turf Sciences. Immediately following graduation James and his brother, Chase, founded Greenscapes in 1976
-          on the foundation of hard work, inginuity, and a passion for making America's lawns the best in the world. Greenscapes still holds
-          those values in high regards as we have expanded over the years. Greenscapes has over 100 office locations thoroughout the south and is
-          continuing to expand every year!
-        </h3>
+        <h4>Catch is a full service hiring and job search tool for businesses and job seekers. 
+            <br />Business looking to use Catch can save and cateogrize potentional employees based on the paremiters tat work best for them.  
+            In addition you have the ability to share saved Catch recruits with fellow team members to simplifiy the job hunt.  Once you've decided who you want 
+            interview you can set up appointments directly with google calendar and continue to narrow down potentional hires with our "On Deck" hiring template.
+            Business can also promote meetups and job fair events to everyone in their Catch contacts to ensure maximum outreach for their event.
+            <br /> Members seeking a job will have a clean and organized platform for all of their hirable materials along with a scanable code to use whenever they 
+            meet someone looking for more information.  You will have access to upcoming meetups and job fairs in your area as well as the ability to update potentional 
+            companies you're connected with whenever your resume changes.
+            <br /> Don't miss out on the new wave of job hunting!</h4>
 
         < br ></br >
         {/* <ItemsCarousel> */}
