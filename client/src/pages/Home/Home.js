@@ -5,7 +5,7 @@ import range from 'lodash/range';
 import image1 from '../../cssPages/ImageGallery/linkedinlogo.jpg';
 import image2 from '../../cssPages/ImageGallery/linkedinlogo.jpg';
 import image3 from '../../cssPages/ImageGallery/linkedinlogo.jpg';
-import image4 from '../../../src/assets/bakground.jpg';
+import image4 from '../../../src/assets/background.jpg';
 // import './script.js';
 import './style.css'
 
