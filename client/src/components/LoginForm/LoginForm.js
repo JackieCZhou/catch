@@ -1,4 +1,3 @@
-Login.js
 import React, { Component } from 'react';
 import '../LoginForm/style.css';
 
