@@ -15,7 +15,7 @@ class About extends Component {
           <img src='./images/greenscapes' style={{ width: '600px', opacity: 'none' }} />
         </div>
 
-        <h4>Catch is a full service hiring and job search tool for businesses and job seekers.
+        <h4 style={{float: 'right'}}>Catch is a full service hiring and job search tool for businesses and job seekers.
             <br />Business looking to use Catch can save and cateogrize potentional employees based on the paremiters tat work best for them.
           In addition you have the ability to share saved Catch recruits with fellow team members to simplifiy the job hunt.  Once you've decided who you want
           interview you can set up appointments directly with google calendar and continue to narrow down potentional hires with our "On Deck" hiring template.
