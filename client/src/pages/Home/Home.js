@@ -5,6 +5,7 @@ import range from 'lodash/range';
 import image1 from '../../cssPages/ImageGallery/linkedinlogo.jpg';
 import image2 from '../../cssPages/ImageGallery/linkedinlogo.jpg';
 import image3 from '../../cssPages/ImageGallery/linkedinlogo.jpg';
+import image4 from '../../../src/assets/bakground.jpg';
 // import './script.js';
 import './style.css'
 
@@ -45,8 +46,14 @@ export default class Test extends React.Component {
     } = this.state;
 
     return (
-      
-      // <div className="bouncing-text">
+      <div>
+      <div className="row">
+        <div className="col-12">
+          <img src={image4} className="grass5 img-fluid img-responsive" alt="grass" />
+        </div>
+      </div>
+
+      {/* // <div className="bouncing-text">
       //   <div className="row">
       //     <br />
       //     <div className="col-sm-2"></div>
@@ -54,7 +61,7 @@ export default class Test extends React.Component {
       //     <h1 style={{ background: 'transparent', color: 'black', border: 'black' }}>Never miss your chance to Catch the perfect opportunity again!</h1>
       //     </div>
       //     <div className="col-sm-2"> </div>
-      //   </div>
+      //   </div> */}
 
       <ItemsCarousel
         // Placeholder configurations
@@ -151,14 +158,11 @@ export default class Test extends React.Component {
                 </div>
               </div>
               <div classNameName="col-2"></div>
+              </div>
             </div>
           </div>
         </div>
-      </div>
       </div >
-
-
-
     );
   }
 } 
