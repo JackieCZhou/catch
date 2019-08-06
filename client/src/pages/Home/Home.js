@@ -94,7 +94,7 @@ export default class Test extends React.Component {
 
           )}
 
-
+          
         </ItemsCarousel>
 
         {/* -------------------------------------------------------------------------------------------- */}
@@ -114,6 +114,7 @@ export default class Test extends React.Component {
           <div className="col-2"></div>
           <div className="col-8 flex-center">
             <div className="jumbotron pt-3 smallReview">
+              <h2>Check Out Some of Our Reviews</h2>
               <br />
               <div className="row">
                 <div className="col-2"></div>
@@ -122,45 +123,91 @@ export default class Test extends React.Component {
                     <div className="carousel-inner">
                       <div className="carousel-item active">
                         <div className='card-review' style={{ border: 'none' }}>
-                          <h4 style={{ textAlign: 'left' }}>“Whether you think you can or you think you can’t, you’re right.” – Henry Ford
+                          <img src="./images/waynesworld.jpg" className="imgReviewer" style={{ width: '160px', float: 'left', marginRight: '15px'}}></img>
+                          <h4 style={{ textAlign: 'left' }}>Greenscapes sure knows what
+                      <br />they're doing! They always get 
+                      <br />the job done and never leave my yard lookin'
+                      <br /> a mess. Like I tell all
+                      <br />my neighbors, be sure to call
+                      <br />Greenscapes if your yard needs a 
+                      <br />good mowin'!-Dylbob, Hickory
                       </h4>
                         </div>
                       </div>
                       <div className="carousel-item">
                         <div className='card-review' style={{ border: 'none' }}>
-                          <h4 style={{ textAlign: 'left' }}>“If your ship doesn't come in, swim out to meet it.”― Jonathan Winters
+                          <img src="./images/Dougthepug.jpg" className="imgReviewer" style={{ width: '160px', float: 'left', marginRight: '15px'}}></img>
+                          <h4 style={{ textAlign: 'left' }}>
+                            Ever since I started using
+                          <br />Greenscapes my yard has never
+                          <br />looked better! I'll never go
+                          <br />back to doing my own yardwork
+                          <br />again! Greenscapes makes yard
+                          <br />upkeep a breeze and has really
+                          <br />saved my grass!
+                          <br />-CoCo, Huntersville
                       </h4>
                         </div>
                       </div>
                       <div className="carousel-item">
                         <div className='card-review' style={{ border: 'none' }}>
-                          <h4 style={{ textAlign: 'left' }}>“Never put off till tomorrow what you can do today.” – Thomas Jefferson
+                          <img src="./images/maninfield.jpg" className="imgReviewer" style={{ width: '160px', float: 'left', marginRight: '15px'}}></img>
+                          <h4 style={{ textAlign: 'left' }}>As a man who loves to do
+                        <br />things himself I have to admit,
+                        <br />Greenscapes sure does a
+                        <br />better job than I ever did. Even
+                        <br />the Mrs.'s says so! I love not 
+                        <br />having to worry about keeping 
+                        <br />my yard looking its best. 
+                        <br />Thanks Greenscapes! -Gerard, Dilworth
                       </h4>
                         </div>
                       </div>
                       <div className="carousel-item">
                         <div className='card-review' style={{ border: 'none' }}>
-                          <h4 style={{ textAlign: 'left' }}>“Opportunities don’t happen, you create them.” – Chris Grosser
+                          <img src="./images/barneyfife.jpg" className="imgReviewer" style={{ width: '150px', float: 'left', marginRight: '15px'}}></img>
+                          <h4 style={{ textAlign: 'left' }}>10/10 would recommend.
+                          <br />Old man Pete next door is
+                          <br />always asking why my yard
+                          <br />looks so good and I keep
+                          <br />telling him, call Greenscapes!
+                          <br />they sure know how to cut
+                          <br />lawns and stuff!
+                          <br />-Ronnie, Charlotte
                         </h4>
                         </div>
                       </div>
+                      <div className="carousel-item">
+                        <div className='card-review' style={{ border: 'none' }}>
+                          <img src="./images/instamodel.jpg" className="imgReviewer" style={{ width: '160px', float: 'left', marginRight: '15px' }}></img>
+                          <h4 style={{ textAlign: 'left' }}>My lawn was really getting
+                          <br />in the way of maintaining my
+                          <br />social media presence. One call
+                          <br />to Greenscapes and now my
+                          <br />yard has never looked better. I 
+                          <br />can focus on more important 
+                          <br /> things like getting insta-followers 
+                          <br /> instead!-Tayler, South Charlotte</h4>
+                        </div>
+                      </div>
                     </div>
-                  <a className="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-                    <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span className="sr-only">Previous</span>
-                  </a>
-                  <a className="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-                    <span className="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span className="sr-only">Next</span>
-                  </a>
+                    <a className="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                      <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span className="sr-only">Previous</span>
+                    </a>
+                    <a className="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                      <span className="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span className="sr-only">Next</span>
+                    </a>
+                  </div>
                 </div>
+                <div classNameName="col-2"></div>
               </div>
-              <div classNameName="col-2"></div>
             </div>
           </div>
         </div>
-      </div>
-      </div>
+      </div >
+
     );
   }
-}
+} 

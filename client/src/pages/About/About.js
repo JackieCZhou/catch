@@ -10,21 +10,18 @@ class About extends Component {
       <div className="info">
         <br /><br />
         <div className="container" style={{ border: '.4' }}>
-          <h1 style={{ background: 'transparent', color: 'black', border: 'black' }}>What's Catch?</h1>
+          <h1 style={{ background: 'transparent', color: 'black', border: 'black' }}>Meet Mr. Greenscapes Himself</h1>
           <br />
-          <img src='./finalcatchlogo.jpg' style={{ width: '400px', opacity: 'none' }} />
+          <img src='./images/MrGHimself.jpg' style={{ width: '600px', opacity: 'none' }} />
         </div>
 
-        <h4>Catch is a full service hiring and job search tool for businesses and job seekers. 
-            <br />Business looking to use Catch can save and cateogrize potentional employees based on the paremiters tat work best for them.  
-            In addition you have the ability to share saved Catch recruits with fellow team members to simplifiy the job hunt.  Once you've decided who you want 
-            interview you can set up appointments directly with google calendar and continue to narrow down potentional hires with our "On Deck" hiring template.
-            Business can also promote meetups and job fair events to everyone in their Catch contacts to ensure maximum outreach for their event.
-            <br /> Members seeking a job will have a clean and organized platform for all of their hirable materials along with a scanable code to use whenever they 
-            meet someone looking for more information.  You will have access to upcoming meetups and job fairs in your area as well as the ability to update potentional 
-            companies you're connected with whenever your resume changes.
-            <br /> Don't miss out on the new wave of job hunting!
-        </h4>
+        <h3>Born James Eugene Greenscapes in 1955, James was raised in Cut And Shoot, Texas. James always had a passion for the outdoors. His parents Alice and James Sr.
+          gave him a toy push mower for his 5th birthday and the rest is history. Cutting lawns professionally by twelve, James went to the University of
+          Santa Cruz for a Bachelor's degree in Turf Sciences. Immediately following graduation James and his brother, Chase, founded Greenscapes in 1976
+          on the foundation of hard work, inginuity, and a passion for making America's lawns the best in the world. Greenscapes still holds
+          those values in high regards as we have expanded over the years. Greenscapes has over 100 office locations thoroughout the south and is
+          continuing to expand every year!
+        </h3>
 
         < br ></br >
         {/* <ItemsCarousel> */}
@@ -32,6 +29,7 @@ class About extends Component {
           <div className="col-2"></div>
           <div className="col-8 flex-center">
             <div className="jumbotron pt-3" style={{height: '200px'}}>
+              <h2>Words of Wisdom from James Greenscapes</h2>
               <br />
               <div className="row">
                 <div className="col-2"></div>
@@ -40,37 +38,43 @@ class About extends Component {
                     <div className="carousel-inner">
                       <div className="carousel-item active">
                         <div className='card-review' style={{ border: 'none' }}>
-                          <h5 style={{ textAlign: 'center' }}>
-                          “Whether you think you can or you think you can’t, you’re right.” – Henry Ford
-                        </h5>
+                          <h4 style={{ textAlign: 'center' }}>
+                            A beautiful lawn is the key to a 
+                            <br />beautiful life.
+                        </h4>
                         </div>
                       </div>
                       <div className="carousel-item">
                         <div className='card-review' style={{ border: 'none' }}>
-                          <h5 style={{ textAlign: 'center' }}>
-                          “If your ship doesn't come in, swim out to meet it.”― Jonathan Winters
-                        </h5>
+                          <h4 style={{ textAlign: 'center' }}>
+                            Hard work is the key to success!
+                        </h4>
                         </div>
                       </div>
                       <div className="carousel-item">
                         <div className='card-review' style={{ border: 'none' }}>
-                          <h5 style={{ textAlign: 'center' }}>
-                          “Choose a job you love, and you will never have to work a day in your life.” – Confucius
-                             </h5>
+                          <h4 style={{ textAlign: 'center' }}>
+                            One Million Lawns Saved since 1976!
+                             </h4>
                         </div>
                       </div>
                       <div className="carousel-item">
                         <div className='card-review' style={{ border: 'none' }}>
-                          <h5 style={{ textAlign: 'center' }}>
-                          “Never put off till tomorrow what you can do today.” – Thomas Jefferson
-                            </h5>
+                          <h4 style={{ textAlign: 'center' }}>
+                            Right or wrong, make a decision. 
+                            <br />The road of life is paved 
+                            <br />with flat squirrels who couldn't 
+                            <br />make a decision.
+                            </h4>
                         </div>
                       </div>
                       <div className="carousel-item">
                         <div className='card-review' style={{ border: 'none' }}>
-                          <h5 style={{ textAlign: 'center' }}>
-                          “Opportunities don’t happen, you create them.” – Chris Grosser
-                            </h5>
+                          <h4 style={{ textAlign: 'center' }}>
+                            I've never met a lawn Greenscapes 
+                            <br />couldn't turn into the most beautiful 
+                            <br />one on the block!
+                            </h4>
                         </div>
                       </div>
                     </div>

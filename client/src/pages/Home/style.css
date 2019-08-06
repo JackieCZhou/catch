@@ -1,5 +1,5 @@
 body{
-  background-image: url("../../assets/background.jpg");
+  background-image: url("../../cssPages/images/cutgrass.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -10,23 +10,8 @@ h3 {
   font-style: italic;
 }
 
-body, html {
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.bouncing-text {
-  color: orangered;
-  font-size: 60px;
-}
-
-
 .card-body{
   padding: 1.85rem;
-  background: rgb(134,148,203);
-  background: radial-gradient(circle, rgba(134,148,203,1) 0%, rgba(97,152,193,1) 43%, rgba(24,36,74,1) 100%);
   
 }
 

@@ -45,7 +45,7 @@ class RegisterForm extends Component {
       <div className="col-sm-6 form">
         <div className="card">
           <div className="card-body">
-            <h2 className="card-title text-white" style={{textAlign: 'center'}}>Join Catch Today!</h2>
+            <h2 className="card-title text-success" style={{textAlign: 'center'}}>Create an Account with Greenscapes</h2>
             <br />
             <form onSubmit={this.handleSubmit}>
               <div className="row">
@@ -96,7 +96,7 @@ class RegisterForm extends Component {
               </div>
               <br />
               <div className="form-group text-left">
-                <label form="email text-white">Email</label>
+                <label form="email">Email</label>
                 <input
                   className="form-control"
                   id='email'
@@ -108,7 +108,7 @@ class RegisterForm extends Component {
                   onChange={this.handleInputChange} />
               </div>
               <div className="form-group text-left">
-                <label form="password text-white">Password</label>
+                <label form="password">Password</label>
                 <input
                   className="form-control"
                   id='password'
@@ -118,7 +118,7 @@ class RegisterForm extends Component {
                   value={password}
                   onChange={this.handleInputChange} />
               </div>
-              <button type="submit" style={{width: '100%'}} className="btn text-white">Submit</button>
+              <button type="submit" style={{width: '100%'}} className="btn btn-success">Join Today!</button>
             </form>
           </div>
         </div>

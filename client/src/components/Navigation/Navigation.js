@@ -29,7 +29,7 @@ class Navigation extends Component {
     return (
       <div className='Navigation'>
         <nav className='navbar navbar-expand-lg navbar-light bg-light mb-3'>
-            <Link className='navbar-brand topLogo' to='/'><img src={logo} width="100" height="100" className="d-inline-block align-top" alt=""/></Link>
+            <Link className='navbar-brand topLogo' to='/'><img src={logo} width="170" height="50" className="d-inline-block align-top" alt=""/></Link>
           <button className={togglerClass} onClick={this.toggleCollapse} id="logo" data-toggle='collapse' data-target='#navbarSupportedContent' aria-controls='navbarSupportedContent' aria-expanded='false' aria-label='Toggle navigation'>
             <span className='navbar-toggler-icon'></span>
           </button>
@@ -38,11 +38,11 @@ class Navigation extends Component {
               <li className='nav-item'>
               {user
                 ? <>
-                <Link className='nav-link pt-3 font-weight-bold' to='/clienthome' onClick={this.toggleCollapse}>Home</Link>
+                <Link className='nav-link text-success pt-3 font-weight-bold' to='/clienthome' onClick={this.toggleCollapse}>Home</Link>
                 </>
                 :
                 <>
-                <Link className='nav-link font-weight-bold' to='/' onClick={this.toggleCollapse}>Home</Link>
+                <Link className='nav-link text-info font-weight-bold' to='/' onClick={this.toggleCollapse}>Home</Link>
                 </>
               }
               </li>
@@ -59,9 +59,9 @@ class Navigation extends Component {
                 </>
                 :
                 <>
-                  <li className='nav-item'><Link className='nav-link font-weight-bold' to='/login' onClick={this.toggleCollapse}>Login</Link></li>
-                  <li className='nav-item'><Link className='nav-link font-weight-bold' to='/register' onClick={this.toggleCollapse}>Register</Link></li>
-                  <li className='nav-item'><Link className='nav-link font-weight-bold' to='/About' onClick={this.toggleCollapse}>About</Link></li>
+                  <li className='nav-item'><Link className='nav-link text-success font-weight-bold' to='/login' onClick={this.toggleCollapse}>Login</Link></li>
+                  <li className='nav-item'><Link className='nav-link text-primary font-weight-bold' to='/register' onClick={this.toggleCollapse}>Register</Link></li>
+                  <li className='nav-item'><Link className='nav-link text-warning font-weight-bold' to='/About' onClick={this.toggleCollapse}>About</Link></li>
                   </>}
             </ul>
           </div>
