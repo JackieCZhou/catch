@@ -1,5 +1,4 @@
 body{
-  background-image: url("../../cssPages/images/cutgrass.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -14,7 +13,10 @@ body{
   font-style: italic;
   border:black;
 }
-
+.h4{
+  float: right;
+  width: 50%;
+}
 .info{
 color: black;
 background-color: white;

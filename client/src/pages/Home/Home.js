@@ -114,7 +114,6 @@ export default class Test extends React.Component {
           <div className="col-2"></div>
           <div className="col-8 flex-center">
             <div className="jumbotron pt-3 smallReview">
-              <h2>Check Out Some of Our Reviews</h2>
               <br />
               <div className="row">
                 <div className="col-2"></div>
