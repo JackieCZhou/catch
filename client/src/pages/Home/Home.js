@@ -47,11 +47,10 @@ export default class Test extends React.Component {
       <div>
         <div className="row">
           <div className="col-12">
-            <div className="col-4 flex-center">
-              <h1 style={{ background: 'transparent',color: 'orangered' }}>Catch</h1>
+              <h1 style={{ background: 'transparent', color: 'orangered', fontStyle: 'bold'}}>Catch</h1>
               <br />
             </div>
-            <h4 style={{ color: 'navy' }}>The new wave in job hunting and recruiting</h4>
+            <h4 style={{ color: 'navy', fontStyle: 'bold' }}>The new wave in job hunting and recruiting</h4>
             < br ></br >
           </div>
         </div>
@@ -97,15 +96,10 @@ export default class Test extends React.Component {
 
         </ItemsCarousel>
 
-        <div className="row">
-          <div className="col-2">
-            <div className="col-4 flex-center">
               <img src={image1} className="grass1" alt="grass" />
               <img src={image2} className="grass2" alt="grass" />
               <img src={image3} className="grass3" alt="grass" />
-            </div>
-          </div>
-        </div>
+
         <br></br>
         <div className="row">
           <div className="col-2"></div>
@@ -159,6 +153,7 @@ export default class Test extends React.Component {
           </div>
         </div>
       </div >
+    
 
     );
   }
