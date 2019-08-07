@@ -47,14 +47,15 @@ export default class Test extends React.Component {
       <div>
         <div className="row">
           <div className="col-12">
-              <h1 style={{ background: 'transparent', color: 'orangered', fontStyle: 'bold'}}>Catch</h1>
-              <br />
-            </div>
-            <h4 style={{ color: 'navy', fontStyle: 'bold' }}>The new wave in job hunting and recruiting</h4>
-            < br ></br >
+            <h1 style={{ background: 'transparent', color: 'orangered', fontStyle: 'bold' }}>Catch</h1>
+            <br />
           </div>
+          <h4 style={{ color: 'navy', fontStyle: 'bold' }}>The new wave in job hunting and recruiting</h4>
+          < br ></br >
         </div>
-        <br /><br />
+
+
+        <br /> <br />
         <ItemsCarousel
           // Placeholder configurations
           enablePlaceholder
@@ -96,9 +97,9 @@ export default class Test extends React.Component {
 
         </ItemsCarousel>
 
-              <img src={image1} className="grass1" alt="grass" />
-              <img src={image2} className="grass2" alt="grass" />
-              <img src={image3} className="grass3" alt="grass" />
+        <img src={image1} className="grass1" alt="grass" />
+        <img src={image2} className="grass2" alt="grass" />
+        <img src={image3} className="grass3" alt="grass" />
 
         <br></br>
         <div className="row">
@@ -153,8 +154,9 @@ export default class Test extends React.Component {
           </div>
         </div>
       </div >
-    
+
 
     );
   }
-} 
+}
+
