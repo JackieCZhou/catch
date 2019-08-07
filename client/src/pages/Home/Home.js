@@ -55,7 +55,6 @@ export default class Test extends React.Component {
           <h4 style={{ color: 'navy' }}>The new wave in job hunting and recruiting</h4>
           < br ></br >
         </div>
-      </div>
 
       <ItemsCarousel
         // Placeholder configurations
