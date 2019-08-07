@@ -23,20 +23,11 @@ class Footer extends Component {
 
               </div>
 
-              <hr class="clearfix w-100 d-md-none pb-3" />
+              {/* <hr class="clearfix w-100 d-md-none pb-3" /> */}
 
             </div>
-            <div class="row">
-              <div class="col-md-12 mb-md-0 mb-12">
-
-
-
-              </div>
-
-            </div>
-
-
           </div>
+
 
           <div class="footer-copyright text-center py-3">About
             <Link className='' to='/about' onClick={this.toggleCollapse}> Catch and </Link>  <a href="https://github.com/JackieCZhou">Jackie Zhou</a>
