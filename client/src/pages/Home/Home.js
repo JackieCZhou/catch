@@ -111,7 +111,7 @@ export default class Test extends React.Component {
                 <div className="col-2"></div>
                 <div className="col-8">
                   <div id="carouselExampleControls" className="carousel slide" data-ride="carousel">
-                  <br /><br />
+                  <br />
                     <div className="carousel-inner">
                       <div className="carousel-item active">
                         <div className='card-review' style={{ border: 'none' }}>
