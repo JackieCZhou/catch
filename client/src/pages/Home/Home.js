@@ -48,8 +48,7 @@ export default class Test extends React.Component {
       <div>
         <div className="row">
           <div className="col-12"style={{ textAlign:'center'}}>
-            <p style={{ background: 'transparent', color: 'orangered', fontStyle: 'bold', fontSize: '40px'}}>Catch</p>
-            <br />
+            <p style={{ background: 'transparent', color: 'orangered', fontWeight: 'bold', fontSize: '60px'}}>Catch</p>
             <h4 style={{ color: 'navy', fontStyle: 'bold' }}>The new wave in job hunting and recruiting</h4>
             < br ></br >
           </div>
