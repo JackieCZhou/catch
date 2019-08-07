@@ -31,14 +31,8 @@ class Footer extends Component {
                   <ul class="list-unstyled">
                     <li>
                       <a href="https://jackieczhou.github.io/catch/"><i class="fab fa-github"></i> Repository</a>
-                    </li>
-                    <li>
                       <a href="#!"><i class="fab fa-facebook"></i> Facebook</a>
-                    </li>
-                    <li>
                       <a href="#!"><i class="fab fa-twitter-square"></i> Twitter</a>
-                    </li>
-                    <li>
                       <a href="#!"><i class="fab fa-instagram"></i> Instagram</a>
                     </li>
                   </ul>
