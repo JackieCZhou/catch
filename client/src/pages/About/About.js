@@ -16,7 +16,7 @@ class About extends Component {
         </div>
 
         <h4>Catch is a full service hiring and job search tool for businesses and job seekers.
-            <br />Business looking to use Catch can save and categorize potentional employees based on the paremiters tat work best for them.
+            <br />Businesses looking to use Catch can save and categorize potentional employees based on the paremiters tat work best for them.
           In addition you have the ability to share saved Catch recruits with fellow team members to simplifiy the job hunt.  Once you've decided who you want
           interview you can set up appointments directly with google calendar and continue to narrow down potentional hires with our "On Deck" hiring template.
           Business can also promote meetups and job fair events to everyone in their Catch contacts to ensure maximum outreach for their event.

@@ -10,9 +10,13 @@ h3 {
   font-style: italic;
 }
 .h1{
-  color: orangered;
+  color: orangered !important;
   font-style: bold;
-  
+  text-align: center;
+
+}
+.h4{
+  text-align: center;
 }
 
 .card-body{

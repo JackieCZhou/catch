@@ -47,12 +47,14 @@ export default class Test extends React.Component {
       <div>
         <div className="row">
           <div className="col-12">
-            <h1 style={{ background: 'transparent' }}>Catch</h1>
-            <br />
+          <div className="col-4 flex-center">
             <img src={{ image3 }} />
+            <h1 style={{ background: 'transparent'}}>Catch</h1>
+            <br />
           </div>
           <h4 style={{ color: 'navy' }}>The new wave in job hunting and recruiting</h4>
           < br ></br >
+        </div>
         </div>
 
       <ItemsCarousel
@@ -97,11 +99,13 @@ export default class Test extends React.Component {
       </ItemsCarousel>
 
       <div className="row">
+      <div className="col-2">
         <div className="col-4 flex-center">
-          <img src={image1} className="grass1" alt="logo" />
-          <img src={image2} className="grass2" alt="logo" />
-          <img src={image3} className="grass3" alt="logo" />
+          <img src={image1} className="grass1" alt="grass" />
+          <img src={image2} className="grass2" alt="grass" />
+          <img src={image3} className="grass3" alt="grass" />
         </div>
+      </div>
       </div>
       <br></br>
       <div className="row">
@@ -136,7 +140,7 @@ export default class Test extends React.Component {
                     </div>
                     <div className="carousel-item">
                       <div className='card-review' style={{ border: 'none' }}>
-                        <h4 style={{ textAlign: 'left' }}>quote</h4>
+                        <h4 style={{ textAlign: 'left' }}>"If you are afraid of confrontation you are not going to do very well" - Bill Parcels</h4>
                       </div>
                     </div>
                   </div>
