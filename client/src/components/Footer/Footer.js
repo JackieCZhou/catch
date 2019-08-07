@@ -26,7 +26,7 @@ class Footer extends Component {
                 <hr class="clearfix w-100 d-md-none pb-3" />
           
           
-                <div class="col-md-4 mb-md-0 mb-4">
+                <div class="col-md-6 mb-md-0 mb-6">
           
                   <ul class="list-unstyled">
                     <li>
