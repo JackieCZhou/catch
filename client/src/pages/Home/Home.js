@@ -5,7 +5,6 @@ import range from 'lodash/range';
 import image1 from '../../cssPages/ImageGallery/linkedinlogo.jpg';
 import image2 from '../../cssPages/ImageGallery/linkedinlogo.jpg';
 import image3 from '../../cssPages/ImageGallery/linkedinlogo.jpg';
-import image4 from '../../cssPages/images/greenscapes';
 
 
 
@@ -50,7 +49,7 @@ export default class Test extends React.Component {
           <div className="col-12">
             <h1 style={{ background: 'transparent' }}>Catch</h1>
             <br />
-            <img src={{ image4 }} />
+            <img src={{ image3 }} />
           </div>
           <h4 style={{ color: 'navy' }}>The new wave in job hunting and recruiting</h4>
           < br ></br >
