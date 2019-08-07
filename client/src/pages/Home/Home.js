@@ -106,7 +106,7 @@ export default class Test extends React.Component {
           <div className="col-2"></div>
           <div className="col-8 flex-center">
             <div className="jumbotron pt-3 smallReview">
-              <br />
+              <br /><br /><br /><br />
               <div className="row">
                 <div className="col-2"></div>
                 <div className="col-8">
@@ -153,7 +153,7 @@ export default class Test extends React.Component {
             </div>
           </div>
         </div>
-        <br/><br/><br/><br/>
+        <br/><br/>
       </div >
 
 
