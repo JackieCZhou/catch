@@ -48,7 +48,7 @@ export default class Test extends React.Component {
       <div>
         <div className="row">
           <div className="col-12"style={{ textAlign:'center'}}>
-            <p style={{ background: 'transparent', color: 'orangered', fontWeight: 'bold', fontSize: '40%'}}>Catch</p>
+            <p style={{ background: 'transparent', color: 'orangered', fontWeight: 'bold', fontSize: '100px'}}>Catch</p>
             <h4 style={{ color: 'navy', fontStyle: 'bold' }}>The new wave in job hunting and recruiting</h4>
             < br ></br >
           </div>
@@ -111,6 +111,7 @@ export default class Test extends React.Component {
                 <div className="col-2"></div>
                 <div className="col-8">
                   <div id="carouselExampleControls" className="carousel slide" data-ride="carousel">
+                  <br /><br />
                     <div className="carousel-inner">
                       <div className="carousel-item active">
                         <div className='card-review' style={{ border: 'none' }}>
