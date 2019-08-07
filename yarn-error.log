@@ -23,7 +23,7 @@ Trace:
 
 npm manifest: 
   {
-    "name": "project-3-starter",
+    "name": "project-catch-starter",
     "version": "1.0.0",
     "license": "MIT",
     "main": "server/server.js",
