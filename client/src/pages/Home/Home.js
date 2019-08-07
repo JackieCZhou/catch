@@ -48,7 +48,7 @@ export default class Test extends React.Component {
       <div>
         <div className="row">
           <div className="col-12"style={{ textAlign:'center'}}>
-            <p style={{ background: 'transparent', color: 'orangered', fontWeight: 'bold', fontSize: '80px'}}>Catch</p>
+            <p style={{ background: 'transparent', color: 'orangered', fontWeight: 'bold', fontSize: '40%'}}>Catch</p>
             <h4 style={{ color: 'navy', fontStyle: 'bold' }}>The new wave in job hunting and recruiting</h4>
             < br ></br >
           </div>
@@ -101,12 +101,12 @@ export default class Test extends React.Component {
         <img src={image2} className="grass2" alt="grass" />
         <img src={image3} className="grass3" alt="grass" />
 
-        <br></br>
+              
+        <br></br><br /><br /><br /><br />
         <div className="row">
           <div className="col-2"></div>
           <div className="col-8 flex-center">
             <div className="jumbotron pt-3 smallReview">
-              <br /><br /><br /><br />
               <div className="row">
                 <div className="col-2"></div>
                 <div className="col-8">
@@ -153,7 +153,7 @@ export default class Test extends React.Component {
             </div>
           </div>
         </div>
-        <br/><br/>
+        <br/><br/><br /><br />
       </div >
 
 
