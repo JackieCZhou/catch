@@ -5,7 +5,6 @@ import range from 'lodash/range';
 import image1 from '../../cssPages/ImageGallery/linkedinlogo.jpg';
 import image2 from '../../cssPages/ImageGallery/linkedinlogo.jpg';
 import image3 from '../../cssPages/ImageGallery/linkedinlogo.jpg';
-import image5 from '../../cssPages/ImageGallery/banner.png';
 
 
 
@@ -48,9 +47,16 @@ export default class Test extends React.Component {
       <div>
         <div className="row">
           <div className="col-12">
-            <img src={image5} className="grass5 img-fluid img-responsive" alt="grass" />
+            <div className="container" style={{ border: '.4' }}>
+              <h1 style={{ background: 'transparent', color: 'orange', border: 'black' }}>Catch</h1>
+              <br />
+              <img src='./images/greenscapes' style={{ width: '600px', opacity: 'none' }} />
+            </div>
+            <h4 style={{ color: 'navy' }}>The new wave in job hunting and recruiting</h4>
+            < br ></br >
           </div>
         </div>
+
         <ItemsCarousel
           // Placeholder configurations
           enablePlaceholder
@@ -89,7 +95,7 @@ export default class Test extends React.Component {
 
           )}
 
-          
+
         </ItemsCarousel>
 
         {/* -------------------------------------------------------------------------------------------- */}
