@@ -16,7 +16,7 @@ class Footer extends Component {
           
               <div class="row">
           
-                <div class="col-md-8 mt-md-0 mt-3">
+                <div class="col-md-10 mt-md-0 mt-3">
           
                   <h5 class="text-uppercase">Catch</h5>
                   <p>The ultimate in hiring and job hunting, never miss the perfect opportunity again!</p>
@@ -26,7 +26,7 @@ class Footer extends Component {
                 <hr class="clearfix w-100 d-md-none pb-3" />
           
           
-                <div class="col-md-4 mb-md-0 mb-4">
+                <div class="col-md-2 mb-md-0 mb-2">
           
                   <ul class="list-unstyled" style={{textAlign: 'right'}}>
                     <li>
