@@ -48,7 +48,7 @@ export default class Test extends React.Component {
       <div>
         <div className="row">
           <div className="col-12"style={{ textAlign:'center'}}>
-            <h1 style={{ background: 'transparent', color: 'orangered', fontStyle: 'bold', fontSize: '40px'}}>Catch</h1>
+            <p style={{ background: 'transparent', color: 'orangered', fontStyle: 'bold', fontSize: '40px'}}>Catch</p>
             <br />
             <h4 style={{ color: 'navy', fontStyle: 'bold' }}>The new wave in job hunting and recruiting</h4>
             < br ></br >
@@ -77,8 +77,8 @@ export default class Test extends React.Component {
           activePosition={'center'}
 
           chevronWidth={24}
-          rightChevron={'>'}
-          leftChevron={'<'}
+          rightChevron={''}
+          leftChevron={''}
           outsideChevron={false}
         >
           {children}
