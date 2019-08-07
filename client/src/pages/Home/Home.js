@@ -47,118 +47,117 @@ export default class Test extends React.Component {
       <div>
         <div className="row">
           <div className="col-12">
-          <div className="col-4 flex-center">
-            <img src={{ image3 }} />
-            <h1 style={{ background: 'transparent'}}>Catch</h1>
-            <br />
+            <div className="col-4 flex-center">
+              <h1 style={{ background: 'transparent',color: 'orangered' }}>Catch</h1>
+              <br />
+            </div>
+            <h4 style={{ color: 'navy' }}>The new wave in job hunting and recruiting</h4>
+            < br ></br >
           </div>
-          <h4 style={{ color: 'navy' }}>The new wave in job hunting and recruiting</h4>
-          < br ></br >
         </div>
-        </div>
+        <br /><br />
+        <ItemsCarousel
+          // Placeholder configurations
+          enablePlaceholder
+          numberOfPlaceholderItems={5}
+          minimumPlaceholderTime={1000}
+          placeholderItem={<div style={{ height: 300, background: 'url(images[i])' }}></div>}
 
-      <ItemsCarousel
-        // Placeholder configurations
-        enablePlaceholder
-        numberOfPlaceholderItems={5}
-        minimumPlaceholderTime={1000}
-        placeholderItem={<div style={{ height: 300, background: 'url(images[i])' }}></div>}
+          // Carousel configurations
+          numberOfCards={3}
+          gutter={12}
+          showSlither={true}
+          firstAndLastGutter={true}
+          freeScrolling={false}
 
-        // Carousel configurations
-        numberOfCards={3}
-        gutter={12}
-        showSlither={true}
-        firstAndLastGutter={true}
-        freeScrolling={false}
+          // Active item configurations
+          requestToChangeActive={this.changeActiveItem}
+          activeItemIndex={activeItemIndex}
+          activePosition={'center'}
 
-        // Active item configurations
-        requestToChangeActive={this.changeActiveItem}
-        activeItemIndex={activeItemIndex}
-        activePosition={'center'}
+          chevronWidth={24}
+          rightChevron={'>'}
+          leftChevron={'<'}
+          outsideChevron={false}
+        >
+          {children}
 
-        chevronWidth={24}
-        rightChevron={'>'}
-        leftChevron={'<'}
-        outsideChevron={false}
-      >
-        {children}
+          {Array.from(new Array(10)).map((_, i) =>
+            <div
+              key={i}
+              style={{
+                height: 2,
+                background: 'url(images[i])'
+              }}
 
-        {Array.from(new Array(10)).map((_, i) =>
-          <div
-            key={i}
-            style={{
-              height: 2,
-              background: 'url(images[i])'
-            }}
+            />
 
-          />
-
-        )}
+          )}
 
 
-      </ItemsCarousel>
+        </ItemsCarousel>
 
-      <div className="row">
-      <div className="col-2">
-        <div className="col-4 flex-center">
-          <img src={image1} className="grass1" alt="grass" />
-          <img src={image2} className="grass2" alt="grass" />
-          <img src={image3} className="grass3" alt="grass" />
-        </div>
-      </div>
-      </div>
-      <br></br>
-      <div className="row">
-        <div className="col-2"></div>
-        <div className="col-8 flex-center">
-          <div className="jumbotron pt-3 smallReview">
-            <br />
-            <div className="row">
-              <div className="col-2"></div>
-              <div className="col-8">
-                <div id="carouselExampleControls" className="carousel slide" data-ride="carousel">
-                  <div className="carousel-inner">
-                    <div className="carousel-item active">
-                      <div className='card-review' style={{ border: 'none' }}>
-                        <h4 style={{ textAlign: 'left' }}>“Whether you think you can or you think you can’t, you’re right.” – Henry Ford</h4>
-                      </div>
-                    </div>
-                    <div className="carousel-item">
-                      <div className='card-review' style={{ border: 'none' }}>
-                        <h4 style={{ textAlign: 'left' }}>"If your ship doesn't come in, swim out to meet it.”― Jonathan Winters</h4>
-                      </div>
-                    </div>
-                    <div className="carousel-item">
-                      <div className='card-review' style={{ border: 'none' }}>
-                        <h4 style={{ textAlign: 'left' }}>“Never put off till tomorrow what you can do today.” – Thomas Jefferson</h4>
-                      </div>
-                    </div>
-                    <div className="carousel-item">
-                      <div className='card-review' style={{ border: 'none' }}>
-                        <h4 style={{ textAlign: 'left' }}>“Opportunities don’t happen, you create them.” – Chris Grosser</h4>
-                      </div>
-                    </div>
-                    <div className="carousel-item">
-                      <div className='card-review' style={{ border: 'none' }}>
-                        <h4 style={{ textAlign: 'left' }}>"If you are afraid of confrontation you are not going to do very well" - Bill Parcels</h4>
-                      </div>
-                    </div>
-                  </div>
-                  <a className="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-                    <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span className="sr-only">Previous</span>
-                  </a>
-                  <a className="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-                    <span className="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span className="sr-only">Next</span>
-                  </a>
-                </div>
-              </div>
-              <div classNameName="col-2"></div>
+        <div className="row">
+          <div className="col-2">
+            <div className="col-4 flex-center">
+              <img src={image1} className="grass1" alt="grass" />
+              <img src={image2} className="grass2" alt="grass" />
+              <img src={image3} className="grass3" alt="grass" />
             </div>
           </div>
         </div>
-      </div>
+        <br></br>
+        <div className="row">
+          <div className="col-2"></div>
+          <div className="col-8 flex-center">
+            <div className="jumbotron pt-3 smallReview">
+              <br />
+              <div className="row">
+                <div className="col-2"></div>
+                <div className="col-8">
+                  <div id="carouselExampleControls" className="carousel slide" data-ride="carousel">
+                    <div className="carousel-inner">
+                      <div className="carousel-item active">
+                        <div className='card-review' style={{ border: 'none' }}>
+                          <h4 style={{ textAlign: 'left' }}>“Whether you think you can or you think you can’t, you’re right.” – Henry Ford</h4>
+                        </div>
+                      </div>
+                      <div className="carousel-item">
+                        <div className='card-review' style={{ border: 'none' }}>
+                          <h4 style={{ textAlign: 'left' }}>"If your ship doesn't come in, swim out to meet it.”― Jonathan Winters</h4>
+                        </div>
+                      </div>
+                      <div className="carousel-item">
+                        <div className='card-review' style={{ border: 'none' }}>
+                          <h4 style={{ textAlign: 'left' }}>“Never put off till tomorrow what you can do today.” – Thomas Jefferson</h4>
+                        </div>
+                      </div>
+                      <div className="carousel-item">
+                        <div className='card-review' style={{ border: 'none' }}>
+                          <h4 style={{ textAlign: 'left' }}>“Opportunities don’t happen, you create them.” – Chris Grosser</h4>
+                        </div>
+                      </div>
+                      <div className="carousel-item">
+                        <div className='card-review' style={{ border: 'none' }}>
+                          <h4 style={{ textAlign: 'left' }}>"If you are afraid of confrontation you are not going to do very well" - Bill Parcels</h4>
+                        </div>
+                      </div>
+                    </div>
+                    {/* <a className="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                      <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span className="sr-only">Previous</span>
+                    </a>
+                    <a className="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                      <span className="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span className="sr-only">Next</span>
+                    </a> */}
+                  </div>
+                </div>
+                <div classNameName="col-2"></div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div >
 
     );
