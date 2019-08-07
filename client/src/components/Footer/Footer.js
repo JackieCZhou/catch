@@ -12,11 +12,11 @@ class Footer extends Component {
            <br />
           <footer class="page-footer font-small pt-4">
           
-            <div class="container-fluid text-center text-md-left">
+            <div class="container-fluid text-center text-md-center">
           
               <div class="row">
           
-                <div class="col-md-6 mt-md-0 mt-3">
+                <div class="col-md-8 mt-md-0 mt-3">
           
                   <h5 class="text-uppercase">Catch</h5>
                   <p>The ultimate in hiring and job hunting, never miss the perfect opportunity again!</p>
@@ -26,9 +26,9 @@ class Footer extends Component {
                 <hr class="clearfix w-100 d-md-none pb-3" />
           
           
-                <div class="col-md-6 mb-md-0 mb-6">
+                <div class="col-md-4 mb-md-0 mb-4">
           
-                  <ul class="list-unstyled">
+                  <ul class="list-unstyled" style={{textAlign: 'right'}}>
                     <li>
                       <a href="https://jackieczhou.github.io/catch/"><i class="fab fa-github"></i> Repository </a>
                       <a href="#!"><i class="fab fa-facebook"></i> Facebook </a>
