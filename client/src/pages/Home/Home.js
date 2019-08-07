@@ -48,7 +48,7 @@ export default class Test extends React.Component {
       <div>
         <div className="row">
           <div className="col-12"style={{ textAlign:'center'}}>
-            <p style={{ background: 'transparent', color: 'orangered', fontWeight: 'bold', fontSize: '60px'}}>Catch</p>
+            <p style={{ background: 'transparent', color: 'orangered', fontWeight: 'bold', fontSize: '80px'}}>Catch</p>
             <h4 style={{ color: 'navy', fontStyle: 'bold' }}>The new wave in job hunting and recruiting</h4>
             < br ></br >
           </div>
@@ -114,27 +114,27 @@ export default class Test extends React.Component {
                     <div className="carousel-inner">
                       <div className="carousel-item active">
                         <div className='card-review' style={{ border: 'none' }}>
-                          <h4 style={{ textAlign: 'left' }}>“Whether you think you can or you think you can’t, you’re right.” – Henry Ford</h4>
+                          <h4 style={{ textAlign: 'center' }}>“Whether you think you can or you think you can’t, you’re right.” – Henry Ford</h4>
                         </div>
                       </div>
                       <div className="carousel-item">
                         <div className='card-review' style={{ border: 'none' }}>
-                          <h4 style={{ textAlign: 'left' }}>"If your ship doesn't come in, swim out to meet it.”― Jonathan Winters</h4>
+                          <h4 style={{ textAlign: 'center' }}>"If your ship doesn't come in, swim out to meet it.”― Jonathan Winters</h4>
                         </div>
                       </div>
                       <div className="carousel-item">
                         <div className='card-review' style={{ border: 'none' }}>
-                          <h4 style={{ textAlign: 'left' }}>“Never put off till tomorrow what you can do today.” – Thomas Jefferson</h4>
+                          <h4 style={{ textAlign: 'center' }}>“Never put off till tomorrow what you can do today.” – Thomas Jefferson</h4>
                         </div>
                       </div>
                       <div className="carousel-item">
                         <div className='card-review' style={{ border: 'none' }}>
-                          <h4 style={{ textAlign: 'left' }}>“Opportunities don’t happen, you create them.” – Chris Grosser</h4>
+                          <h4 style={{ textAlign: 'center' }}>“Opportunities don’t happen, you create them.” – Chris Grosser</h4>
                         </div>
                       </div>
                       <div className="carousel-item">
                         <div className='card-review' style={{ border: 'none' }}>
-                          <h4 style={{ textAlign: 'left' }}>"If you are afraid of confrontation you are not going to do very well" - Bill Parcels</h4>
+                          <h4 style={{ textAlign: 'center' }}>"If you are afraid of confrontation you are not going to do very well" - Bill Parcels</h4>
                         </div>
                       </div>
                     </div>
@@ -153,6 +153,7 @@ export default class Test extends React.Component {
             </div>
           </div>
         </div>
+        <br/><br/><br/><br/>
       </div >
 
 
