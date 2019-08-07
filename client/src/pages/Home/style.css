@@ -9,6 +9,11 @@ body{
 h3 {
   font-style: italic;
 }
+.h1{
+  color: orangered;
+  font-style: bold;
+  
+}
 
 .card-body{
   padding: 1.85rem;
