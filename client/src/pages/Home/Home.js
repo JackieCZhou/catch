@@ -2,9 +2,9 @@ import React from 'react';
 import ItemsCarousel from 'react-items-carousel';
 import range from 'lodash/range';
 // import { url } from 'inspector';
-import image1 from '../../cssPages/ImageGallery/linkedinlogo.jpg';
-import image2 from '../../cssPages/ImageGallery/linkedinlogo.jpg';
-import image3 from '../../cssPages/ImageGallery/linkedinlogo.jpg';
+import image1 from '../../cssPages/ImageGallery/linkedinlogo.png';
+import image2 from '../../cssPages/ImageGallery/linkedinlogo.png';
+import image3 from '../../cssPages/ImageGallery/linkedinlogo.png';
 import './style.css';
 
 
