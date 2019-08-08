@@ -116,7 +116,7 @@ export default class Test extends React.Component {
                     <br />
                     <div className="carousel-inner">
                       <div className="carousel-item active">
-                        <div className='card-review' style={{ border: 'none' }}>
+                        <div className='card-review' style={{ border: 'none', height: '150px' }}>
                           <h4 style={{ textAlign: 'center' }}>“Whether you think you can or you think you can’t, you’re right.” – Henry Ford</h4>
                         </div>
                       </div>
@@ -151,7 +151,7 @@ export default class Test extends React.Component {
                     </a>
                   </div>
                 </div>
-                <div classNameName="col-2"></div>
+                {/* <div classNameName="col-2"></div> */}
               </div>
             </div>
           </div>
