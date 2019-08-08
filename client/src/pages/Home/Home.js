@@ -97,7 +97,7 @@ export default class Test extends React.Component {
 
         </ItemsCarousel>
         <div className="row">
-          <div className="col-12">
+          <div className="col-12 flex-center">
             <img src={image1} className="grass1" alt="grass" />
             <img src={image2} className="grass2" alt="grass" />
             <img src={image3} className="grass3" alt="grass" />
@@ -105,7 +105,7 @@ export default class Test extends React.Component {
         </div>
 
         <br></br><br /><br /><br /><br />
-        <div className="row">
+        <div className="row"style={{height: '150px'}}>
           <div className="col-2"></div>
           <div className="col-8 flex-center">
             <div className="jumbotron pt-3 smallReview">
