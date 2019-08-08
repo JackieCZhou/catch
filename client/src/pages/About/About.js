@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import './about.css';
-
+import image1 from '../../cssPages/ImageGallery/groupphoto.jpg';
 
 
 class About extends Component {
@@ -13,13 +13,12 @@ class About extends Component {
           <h1 style={{ background: 'transparent', color: 'orangered', border: 'black' }}>What's Catch?</h1>
             <h4> Why miss out on the perfect opporunity when you don't have to?</h4>
           <br />
-          <img src='./images/greenscapes' style={{ width: '600px', opacity: 'none' }} />
         </div>
         <div className="row">
-          <div className="col-6">
-          <img src='./ImageGallery/groupphoto.jpg' style={{}} />
+          <div className="col-4">
+          <img src={{image1}} style={{}} />
           </div>
-          <div className="col-6 flex-center">
+          <div className="col-8 flex-center">
             <h4>Catch is a full service hiring and job search tool for businesses and job seekers.
             <br />Businesses looking to use Catch can save and categorize potentional employees based on the paremiters tat work best for them.
               In addition you have the ability to share saved Catch recruits with fellow team members to simplifiy the job hunt.  Once you've decided who you want
