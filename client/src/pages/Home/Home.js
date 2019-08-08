@@ -121,31 +121,31 @@ export default class Test extends React.Component {
                         </div>
                       </div>
                       <div className="carousel-item">
-                        <div className='card-review' style={{ border: 'none' }}>
+                        <div className='card-review' style={{ border: 'none', height: '150px'}}>
                           <h4 style={{ textAlign: 'center' }}>"If your ship doesn't come in, swim out to meet it.”― Jonathan Winters</h4>
                         </div>
                       </div>
                       <div className="carousel-item">
-                        <div className='card-review' style={{ border: 'none' }}>
+                        <div className='card-review' style={{ border: 'none', height: '150px'}}>
                           <h4 style={{ textAlign: 'center' }}>“Never put off till tomorrow what you can do today.” – Thomas Jefferson</h4>
                         </div>
                       </div>
                       <div className="carousel-item">
-                        <div className='card-review' style={{ border: 'none' }}>
+                        <div className='card-review' style={{ border: 'none', height: '150px'}}>
                           <h4 style={{ textAlign: 'center' }}>“Opportunities don’t happen, you create them.” – Chris Grosser</h4>
                         </div>
                       </div>
                       <div className="carousel-item">
-                        <div className='card-review' style={{ border: 'none' }}>
+                        <div className='card-review' style={{ border: 'none', height: '150px'}}>
                           <h4 style={{ textAlign: 'center' }}>"If you are afraid of confrontation you are not going to do very well" - Bill Parcels</h4>
                         </div>
                       </div>
                     </div>
-                    <a className="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                    <a className="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev" style={{height: '150px'}}>
                       <span className="carousel-control-prev-icon" aria-hidden="true"></span>
                       <span className="sr-only">Previous</span>
                     </a>
-                    <a className="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                    <a className="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next"style={{height: '150px'}}>
                       <span className="carousel-control-next-icon" aria-hidden="true"></span>
                       <span className="sr-only">Next</span>
                     </a>
