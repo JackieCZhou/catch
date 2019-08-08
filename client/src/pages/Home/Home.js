@@ -109,9 +109,9 @@ export default class Test extends React.Component {
           <div className="col-2"></div>
           <div className="col-8 flex-center">
             <div className="jumbotron pt-3 smallReview">
-              <div className="row">
-                <div className="col-2"></div>
-                <div className="col-8">
+              <div className="row"style={{height: '150px'}}>
+                <div className="col-2"style={{height: '150px'}}></div>
+                <div className="col-8"style={{height: '150px'}}>
                   <div id="carouselExampleControls" className="carousel slide" data-ride="carousel">
                     <br />
                     <div className="carousel-inner">
