@@ -104,7 +104,7 @@ export default class Test extends React.Component {
           </div>
         </div>
 
-        <br></br><br /><br /><br /><br />
+        <br></br><br /><br /><br /><br /><br></br><br /><br /><br /><br />
         <div className="row"style={{height: '150px'}}>
           <div className="col-2"></div>
           <div className="col-8 flex-center">
@@ -156,7 +156,7 @@ export default class Test extends React.Component {
             </div>
           </div>
         </div>
-        <br /><br /><br /><br /><br />
+        <br /><br />
       </div >
 
 
