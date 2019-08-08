@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import './about.css';
-import image1 from '../../cssPages/ImageGallery/groupphoto.jpg';
+import image1 from '../../cssPages/ImageGallery/pineneedles.png';
 
 
 class About extends Component {
@@ -16,7 +16,7 @@ class About extends Component {
         </div>
         <div className="row">
           <div className="col-4">
-          <img src={{image1}} style={{}} />
+          <img src={{image1}}/>
           </div>
           <div className="col-8 flex-center">
             <h4>Catch is a full service hiring and job search tool for businesses and job seekers.
