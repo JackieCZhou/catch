@@ -156,7 +156,6 @@ export default class Test extends React.Component {
             </div>
           </div>
         </div>
-        <br /><br />
       </div >
 
 
