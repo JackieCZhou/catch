@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import './about.css';
-import image1 from '../../cssPages/ImageGallery/pineneedles';
+import image1 from '../../cssPages/ImageGallery/pineneedles.png';
 
 
 class About extends Component {
