@@ -197,7 +197,7 @@ class ClientHome extends Component {
               <div className="card-body">
                 <h1 className="card-title"><i class="far fa-folder-open"></i></h1>
                 <h5 className="card-subtitle mb-2 text-muted">Upload Hiring Materials</h5>
-                <p className="card-text">Connect your Linkedin, Portfolio and Resume</p>
+                <p className="card-text">Connect your Linkedin, Portfolio, Github  and Resume</p>
               </div>
             </a>
             {console.log(this.state.upcomingServices)}
@@ -254,7 +254,7 @@ class ClientHome extends Component {
               <div className="card-body">
                 <h1 className="card-title"><i class="far fa-handshake"></i></h1>
                   <h5 className="card-subtitle text-muted">Connect</h5>
-                <p className="card-text">Connect with Recruiters and others job hunting liek yourself!</p>
+                <p className="card-text">Connect with Recruiters and others job hunting like yourself!</p>
               </div>
               </Link>
             </div>
