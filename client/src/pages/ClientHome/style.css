@@ -1,7 +1,16 @@
 h1 {
-  color: #58b368;
+  color: #1B2A65;
   /* height: 30px;
   width: 30px; */
+}
+
+body{
+  background-image: url("../../cssPages/images/background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .welcomeText {

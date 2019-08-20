@@ -195,9 +195,9 @@ class ClientHome extends Component {
           <div className="col-sm-4 mainButton">
             <a className="card d-flex text-center" data-toggle="modal" data-target="#upcomingModal" onClick={this.getServices}>
               <div className="card-body">
-                <h1 className="card-title"><i className="fas fa-calendar-day"></i></h1>
-                <h5 className="card-subtitle mb-2 text-muted">Scheduled</h5>
-                <p className="card-text">View your Scheduled Services.</p>
+                <h1 className="card-title"><i class="far fa-folder-open"></i></h1>
+                <h5 className="card-subtitle mb-2 text-muted">Upload Hiring Materials</h5>
+                <p className="card-text">Connect your Linkedin, Portfolio and Resume</p>
               </div>
             </a>
             {console.log(this.state.upcomingServices)}
@@ -252,9 +252,9 @@ class ClientHome extends Component {
             <div className="card text-center scheduleCard">
             <Link className='nav-link pb-.5 pt-0' to='/scheduling' onClick={this.toggleCollapse}>
               <div className="card-body">
-                <h1 className="card-title"><i className="fas fa-calendar-plus"></i></h1>
-                  <h5 className="card-subtitle text-muted">Booking</h5>
-                <p className="card-text">Schedule a Service.</p>
+                <h1 className="card-title"><i class="far fa-handshake"></i></h1>
+                  <h5 className="card-subtitle text-muted">Connect</h5>
+                <p className="card-text">Connect with Recruiters and others job hunting liek yourself!</p>
               </div>
               </Link>
             </div>
