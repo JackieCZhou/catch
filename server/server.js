@@ -25,7 +25,7 @@ const app = express();
 //-- Mongoose Setup ----------------------------------------------------------
 mongoose.connect(
   process.env.MONGODB_URI ||
-  'mongodb://localhost/heroku_gnmt6k1t'
+  'mongodb://localhost/CatchApp'
 )
 mongoose.connection.on('error', err => {
   console.log(`Mongoose connection err:\n${err}`)
